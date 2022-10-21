@@ -162,3 +162,99 @@
     width: 60px;
     height: 20px;
 }
+
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: 1.8s linear 1 es12-top;
+}
+
+@keyframes es12-top{
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: 1.8s linear 1 es12-bot;
+}
+
+@keyframes es12-bot{
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: 1.8s linear 1 es13-top;
+}
+
+@keyframes es13-top{
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    20% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    40% {
+        left: calc(100% - 30px);
+        top: calc(100% - 10px);
+    }
+    60% {
+        left: calc(0% - 30px);
+        top: calc(100% - 10px);
+    }
+    80% {
+        left: calc(0% - 30px);
+        top: -10px;
+    }
+    100% {
+        left: 0%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: 1.8s linear 1 es13-bot;
+}
+
+@keyframes es13-bot{
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+    20% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    40% {
+        right: calc(100% - 30px);
+        bottom: calc(100% - 10px);
+    }
+    60% {
+        right: calc(0% - 30px);
+        bottom: calc(100% - 10px);
+    }
+    80% {
+        right: calc(0% - 30px);
+        bottom: -10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+}
